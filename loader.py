@@ -2,7 +2,6 @@ import os
 import re
 import logging
 import logging.config
-from pyrogram import Client, __version__
 from pyrogram.raw.all import layer
 from variables import FORCE_SUB
 
