@@ -27,8 +27,8 @@ To Make Logo - /logo Your Name
 To Make Square Logo -  /logosq Your Name
 
 ♻️ Example:
-/logo BETAs
-/logosq MKN
+/logo Tech Masters 
+/logosq Tech Masters 
 
 🤩THANKS FOR USING ME😍
 """,       
@@ -46,11 +46,9 @@ To Make Square Logo -  /logosq Your Name
 ╔════❰ 𝙼𝚄𝙻𝚃𝙸 𝙱𝙾𝚃 ❱═❍
 ║╭━━━━━━━━━━━━━━━➣
 ║┣⪼🤖ᴍʏ ɴᴀᴍᴇ : {bot.mention}
-║┣⪼👦ᴅᴇᴠ 1 : <a href=https://t.me/JP_Jeol_org>ᴊᴇᴏʟ</a>
-║┣⪼👨‍💻ᴅᴇᴠ 2 : <a href=https://t.me/mr_MKN>ᴍʀ.ᴍᴋɴ ᴛɢ</a>
-║┣⪼❣️sᴏᴜʀᴄᴇ ᴄᴏᴅ : <a href=https://github.com/Jeolpaul/TG-MULTI-BOT>ᴛɢ-ᴍᴜʟᴛɪ-ʙᴏᴛ</a>
+║┣⪼👨‍💻ᴅᴇᴠ : <a href=https://t.me/helloheartbeatboss>HeartBeat</a>
 ║┣⪼📡ʜᴏsᴛᴇᴅ ᴏɴ : <a href=https://dashboard.heroku.com>ʜᴇʀᴏᴋᴜ</a>
-║┣⪼🗣️ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ3</a>
+║┣⪼🗣️ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 3</a>
 ║┣⪼📚ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ║┣⪼🗒️ᴠᴇʀsɪᴏɴ : Pyrogram v{__version__}  
 ║╰━━━━━━━━━━━━━━━➣
@@ -66,8 +64,8 @@ To Make Square Logo -  /logosq Your Name
          await msg.message.edit(
              text=f"Hello {msg.from_user.mention}👋🏻\nI'am A Multi use Bot with many usefull features.\neg:- Telegarph, Channel ID, User ID, Fun, Group Id etc...\nYou can see My commands by below button... \n\n◉ send channel last message with forwerd tag to get the channel id 💯",          
              reply_markup=InlineKeyboardMarkup( [[
-                  InlineKeyboardButton("❣️ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/BETA_BOTSUPPORT"),
-                  InlineKeyboardButton("📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/BETA_UPDATES")
+                  InlineKeyboardButton("❣️ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/Tech_Masters2022"),
+                  InlineKeyboardButton("📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/Tech_Masters")
                   ],[            
                   InlineKeyboardButton("ℹ️ 𝐇𝐄𝐋𝐏", callback_data="help"),
                   InlineKeyboardButton("😉 𝐅𝐔𝐍", callback_data="fun")
@@ -79,12 +77,9 @@ To Make Square Logo -  /logosq Your Name
              )
    elif data == "devs":
          await msg.message.edit(
-             text=f"This Bot will be made @JP_Jeol & @mr_MKN ",
+             text=f"This Bot will be made @helloheartbeatboss",
              reply_markup=InlineKeyboardMarkup( [[
-                  InlineKeyboardButton("👨‍💻 𝐃𝐄𝐕𝐒 1", url="https://t.me/JP_Jeol_org"),
-                  InlineKeyboardButton("👨‍💻 𝐃𝐄𝐕𝐒 2", url="https://t.me/mr_MKN")
-                  ],[
-                  InlineKeyboardButton("❣️ 𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐎𝐃𝐄 ❣️", url="https://github.com/Jeolpaul/TG-MULTI-BOT"),
+                  InlineKeyboardButton("👨‍💻 𝐃𝐄𝐕𝐒", url="https://t.me/helloheartbeatboss"),
                   ],[
                   InlineKeyboardButton("↩️ 𝐁𝐀𝐂𝐊", callback_data="start"),
                   InlineKeyboardButton("🔒 𝐂𝐋𝐎𝐒𝐄", callback_data="close")
@@ -117,8 +112,6 @@ To Make Square Logo -  /logosq Your Name
                  reply_markup=InlineKeyboardMarkup( [[
                      InlineKeyboardButton("ℹ️ 𝐌𝐎𝐕𝐈𝐄 𝐁𝐎𝐓", url="https://t.me/GeorgeMalarobot"),
                      InlineKeyboardButton("🎵 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓", url="https://t.me/SK_MUSIC_ROBOT")
-                     ],[
-                     InlineKeyboardButton("🎖️ 𝐆𝐑𝐎𝐔𝐏 𝐌𝐀𝐍𝐀𝐆𝐄𝐑 🎖️", url="https://t.me/MKN_GROUPMANAGEROBOT")
                      ],[                   
                      InlineKeyboardButton("↩️ 𝐁𝐀𝐂𝐊", callback_data="start"),
                      InlineKeyboardButton("🔒 𝐂𝐋𝐎𝐒𝐄", callback_data="close")
