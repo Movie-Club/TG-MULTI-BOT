@@ -35,10 +35,10 @@ async def start_message(bot, message):
        await m.delete()             
        await message.reply_photo(
            photo=random.choice(PICS),
-           caption=f"Hello {message.from_user.mention}👋🏻\nI'am A Multi use Bot with many usefull features.\neg:- Telegarph, Channel ID, User ID, Fun, Group Id etc...\nYou can see My commands by below button... \n\n◉ send channel last message with forwerd tag to get the channel id 💯",               
+           caption=f"Hello {message.from_user.mention}👋🏻\n\nI'am A Multi use Bot with many usefull features.\n\nExample:- Telegarph, Channel ID, User ID, Fun, Group Id etc...\n\nYou can see My commands by below button... \n\n∆ send channel last message with forwerd tag to get the channel id 💯",               
            reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton("❣️ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/BETA_BOTSUPPORT"),
-               InlineKeyboardButton("📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/Beta_Bot_Updates")
+               InlineKeyboardButton("❣️ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/Tech_Masters2022"),
+               InlineKeyboardButton("📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/Tech_Masters")
                ],[            
                InlineKeyboardButton("ℹ️ 𝐇𝐄𝐋𝐏", callback_data="help"),
                InlineKeyboardButton("😉 𝐅𝐔𝐍", callback_data="fun")
@@ -139,7 +139,7 @@ async def logosq(bot, message):
       logo = await generate_logo(text,True)
   
       if "telegra.ph" not in logo:
-        return await x.edit("`❌ Something Went Wrong...`\n\nReport This Error In [ᗷETᗩ]")
+        return await x.edit("`❌ Something Went Wrong...`\n\nReport This Error In [Tech Masters]")
         
       if "error" in logo:
         return await x.edit(f"`❌ Something Went Wrong...`\n\nReport This Error In [ᗷETᗩ] \n\n`{logo}`")
